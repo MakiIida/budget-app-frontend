@@ -33,7 +33,7 @@ const Dashboard = () => {
         console.log("Käyttäjätiedot:", data);
         if (!data || !data.name) throw new Error("Virheelliset käyttäjätiedot.");
         
-        setUser(data); // Tallennetaan käyttäjätiedot tilaan
+        setUser(data); // Tallennetaan käyttäjätiedot
       } catch (error) {
         console.error("Virhe haettaessa käyttäjätietoja:", error);
         localStorage.removeItem("token"); // Poistetaan token epäonnistuneen haun jälkeen

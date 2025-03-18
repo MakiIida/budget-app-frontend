@@ -34,7 +34,7 @@ const NewBudget = () => {
 
   // Hae budjettiin liittyvät tapahtumat 
   const fetchTransactions = async () => {
-    if (!budgetId) return; // Jos budjettia ei ole vielä tallennettu, lopetetaan funktio
+    if (!budgetId) return; // Jos budjettia ei ole vielä tallennettu, niin lopetetaan funktio
   
     const token = localStorage.getItem("token");
     if (!token) {

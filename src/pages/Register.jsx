@@ -10,7 +10,7 @@ const Register = () => {
   const [email, setEmail] = useState(""); // Käyttäjän sähköposti
   const [password, setPassword] = useState(""); // Käyttäjän salasana
   const [showPassword, setShowPassword] = useState(false); // Näytetäänkö salasana
-  const navigate = useNavigate(); // Navigointi muihin sivuihin
+  const navigate = useNavigate(); // Navigointi muille sivuille
 
   // Käsitellään rekisteröintilomakkeen lähetys
   const handleRegister = async (e) => {

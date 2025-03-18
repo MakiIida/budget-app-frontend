@@ -6,8 +6,8 @@ import "../styles.css";
 const Login = () => {
   // Käyttäjän autentikointitiedot
   const { setIsAuthenticated } = useContext(AuthContext);
-  const [email, setEmail] = useState(""); // Tallennetaan käyttäjän sähköposti
-  const [password, setPassword] = useState(""); // Tallennetaan käyttäjän salasana
+  const [email, setEmail] = useState(""); // Tallennetaan sähköposti
+  const [password, setPassword] = useState(""); // Tallennetaan salasana
   const [loading, setLoading] = useState(false); // Latausanimaatio kirjautumiselle
   const [showPassword, setShowPassword] = useState(false); // Näytetäänkö salasana vai ei
   const navigate = useNavigate(); // Navigointi eri sivuille

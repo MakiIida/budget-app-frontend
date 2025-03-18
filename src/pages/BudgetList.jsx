@@ -82,7 +82,7 @@ const BudgetList = () => {
         throw new Error("Budjetin poistaminen epäonnistui.");
       }
 
-      // Päivitetään tilaa poistamalla valittu budjetti
+      // Päivitetään tila poistamalla valittu budjetti
       setBudgets(budgets.filter((budget) => budget.id !== id));
       alert("Budjetti poistettu!");
     } catch (error) {

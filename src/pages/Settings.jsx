@@ -1,7 +1,6 @@
 import { useEffect, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
-
 const Settings = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem("token");

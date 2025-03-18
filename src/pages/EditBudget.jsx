@@ -80,7 +80,7 @@ const EditBudget = () => {
           }
   
           alert("Budjetti päivitetty!");
-          navigate("/budget-list"); // Siirrytään takaisin listaan
+          navigate("/budget-list"); // Siirrytään takaisin lista-sivulle
   
       } catch (error) {
           console.error("Virhe tallennuksessa:", error);
